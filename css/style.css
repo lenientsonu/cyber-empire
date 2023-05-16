@@ -218,6 +218,21 @@ a {
     color: black;
 }
 
+#all {
+    background-color: black;
+    color: cyan;
+    font-size: 2rem;
+    padding: 1.5rem 3rem 1.5rem;
+    border: 0.1rem solid cyan;
+    border-radius: 3rem;
+    box-shadow: 0.1rem 0.1rem 1rem cyan;
+}
+#all:hover {
+    background-color: cyan;
+    color: black;
+    box-shadow: none;
+}
+
 /* footer  */
 footer {
     margin-top: 4rem;
