@@ -233,6 +233,18 @@ a {
     box-shadow: none;
 }
 
+/* contact form */
+.contact-form {
+    text-align: center;
+    border: .1rem solid cyan;
+    border-radius: 6rem;
+    box-shadow: 0.1rem 0.1rem 1rem cyan;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 15rem;
+    padding-top: 3rem;
+}
+
 /* footer  */
 footer {
     margin-top: 4rem;
