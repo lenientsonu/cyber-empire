@@ -1,0 +1,361 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* Background Color */
+    --primary-color: #041b2d;
+    --secondary-color: #f6fbfe;
+    --blue: #0179fc;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 6rem;
+    text-align: center;
+}
+@media (max-width: 979px) {
+    body {
+        padding-bottom: 0px;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 0.85rem;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 1.5rem;
+    background: var(--blue);
+}
+
+/* whatsapp floating icon */
+.float {
+    position: fixed;
+    width: 6rem;
+    height: 6rem;
+    bottom: 4rem;
+    right: 4rem;
+    margin-bottom: 6rem;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 5rem;
+    text-align: center;
+    font-size: 3rem;
+    box-shadow: 0.2rem 0.2rem 0.3rem #999;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 1.6rem;
+}
+
+/* button cta */
+.cta {
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 7rem;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+.cta:hover {
+    -webkit-transform: scale(1.025);
+}
+.cta h5 {
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+.cta p {
+    font-size: 1.8rem;
+}
+
+/* navbar */
+.nav-style {
+    background-color: var(--primary-color);
+}
+.nav-style span {
+    color: var(--secondary-color);
+    text-align: left;
+    margin-left: 2rem;
+    font-size: 2.6rem;
+}
+.nav-style span del {
+    color: var(--blue);
+    font-size: 1.8rem;
+}
+.nav-style span p {
+    font-size: 2rem;
+}
+.nav-style a {
+    font-size: 2.25rem;
+    margin-right: 2.5rem;
+}
+
+/* header */
+#logo {
+    width: 30rem;
+    margin-top: 0;
+    margin-bottom: 4rem;
+    border: 0.1rem solid var(--blue);
+    padding: 1.5rem 6rem 1.5rem;
+    border-radius: 10rem;
+    box-shadow: 0.1rem 0.1rem 1rem cyan;
+}
+.header_wrapper {
+    justify-content: center;
+    text-align: center;
+    margin: 4rem;
+}
+.header_wrapper h1 {
+    font-size: 3.6rem;
+}
+.header_wrapper h1 span {
+    color: var(--blue);
+}
+.header_wrapper h3 {
+    font-size: 2rem;
+    margin: 2.4rem;
+}
+.header_wrapper img {
+    width: 80%;
+}
+
+/* details */
+.details {
+    padding-top: 8rem;
+    margin: 5rem;
+}
+.details p {
+    border: 0.5rem solid var(--secondary-color);
+    background-color: black;
+    text-align: left;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    /* width: 80%; */
+}
+.details p i {
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+
+/* specs */
+.specs {
+    text-align: center;
+    margin: 5rem;
+}
+
+.specs-items {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.specs-items p {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border-radius: 1.5rem;
+    margin: 1rem 3rem;
+    padding: 2rem;
+}
+.specs-items p img {
+    width: 7rem;
+}
+.specs-items p span {
+    font-size: 1.8rem;
+    text-align: left;
+    margin: 0.5rem;
+}
+
+/* learn section */
+.learn {
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: black;
+    padding: 40px;
+}
+.learn h1 {
+    font-size: 4rem;
+}
+.learn h4 {
+    color: var(--blue);
+    font-size: 2.65rem;
+    font-weight: 100;
+    margin-top: 2rem;
+}
+
+.learn-items {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    /* width: 80%; */
+}
+.learn-items p {
+    font-size: 1.8rem;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 15px;
+    margin: 1rem;
+    padding: 2rem;
+}
+.learn-items p img {
+    width: 8rem;
+    margin-bottom: 2rem;
+}
+
+/* who header */
+.who-header {
+    padding: 3rem 10%;
+    padding-bottom: 0.1rem;
+}
+.who-header h1 {
+    font-size: 4rem;
+}
+.who-header h3 {
+    color: var(--blue);
+    font-size: 2.2rem;
+    margin-top: 2rem;
+}
+
+/* who */
+.who {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    padding: 4rem;
+    background-color: white;
+    color: black;
+}
+.who h3 {
+    font-size: 2.6rem;
+    margin: 1.5rem;
+    color: #009789;
+}
+.who h3 img {
+    width: 3rem;
+}
+.who-items {
+    margin-top: 3rem;
+}
+.who-items p {
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 100;
+    background-color: white;
+    border: 0.1rem solid grey;
+    border-radius: 1.5rem;
+    margin: 1rem;
+    padding: 2rem;
+}
+.who-items p img {
+    width: 3rem;
+}
+
+/* check */
+.check-header h1 {
+    font-size: 4rem;
+}
+
+.check {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 4rem;
+    background-color: white;
+    color: black;
+}
+.check h1 {
+    font-size: 3.8rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.check h4 {
+    font-size: 2.2rem;
+}
+.check span {
+    color: var(--blue);
+}
+.check-items {
+    margin-bottom: 4rem;
+}
+.check-items h6 {
+    font-size: 1.8rem;
+    color: grey;
+    text-align: left;
+    margin-bottom: 4rem;
+}
+.check-items h6 input {
+    margin-right: 1rem;
+}
+/* countdown */
+.countdown h3 {
+    background-color: var(--blue);
+    color: var(--secondary-color);
+    margin: 1rem;
+    padding: 2rem;
+    font-size: 2.4rem;
+    border-radius: 2rem;
+}
+.countdown h3 p {
+    font-size: 6.5rem;
+}
+
+/* faq accordion */
+.faq-header h1 {
+    font-size: 4rem;
+}
+.faq-header hr {
+    width: 80%;
+}
+.faq {
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+    text-align: center;
+    padding: 4rem;
+    background-color: var(--white);
+}
+.faq p {
+    font-size: 1.8rem;
+    margin-bottom: 4rem;
+}
+.faq button p {
+    margin-bottom: 0;
+}
+.accordion-item {
+    font-size: 1.6rem;
+    margin-bottom: 0.4rem;
+    /* box-shadow: 1rem 1rem .5rem grey; */
+}
+.accordion-header button {
+    font-size: 1.6rem;
+}
+
+/* reponsive code */
+@media (max-width: 998px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 45%;
+    }
+}
